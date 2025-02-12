@@ -3,6 +3,7 @@ import styles from './styles.module.css';
 import { NavLink } from 'react-router-dom';
 import { GuestContext } from '../../context/GuestContext';
 
+
 /**
  * @summary
  * Home Page Component
@@ -19,6 +20,7 @@ function Home() {
   return (
     <>
       {/* <div className={styles.home_pg}> */}
+
       <div className={styles.img_container}>
         {/* <img src='/save_the_date5.jpg' className={styles.hme_pic} /> */}
       </div>
