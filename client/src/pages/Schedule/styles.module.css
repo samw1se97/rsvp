@@ -1,0 +1,17 @@
+.schedule {
+  width: 100%;
+}
+.schedule > h1 {
+  text-align: center;
+}
+.schedule > img {
+  margin: 0 auto;
+  width: 20%;
+  display: block;
+}
+
+.schedule > p {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}

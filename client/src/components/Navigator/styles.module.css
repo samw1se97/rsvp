@@ -1,0 +1,86 @@
+.navigator > h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+nav {
+  /* position: fixed; */
+  /* bottom: 0; */
+  left: 0;
+  width: 100%;
+  /* background-color: white;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  border-top: 1px solid #eee; */
+}
+
+/* Navigation list */
+nav .list {
+  list-style: none;
+  margin: 0;
+  padding: 16px;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  gap: 1.6rem;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation links */
+nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #666;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Icon size */
+nav a svg {
+  width: 28px;
+  height: 28px;
+}
+
+/* Hover state */
+nav a:hover {
+  color: var(--btn-sbmt-hvr);
+  background-color: #ccdcc093;
+}
+
+/* Active state */
+
+nav a.isActive {
+  background-color: #ccdcc093;
+}
+
+/* Optional: Add a subtle scale effect on click */
+nav a:active {
+  transform: scale(0.95);
+}
+
+/* Optional: Add media query for larger screens */
+/* @media (min-width: 768px) {
+  nav {
+    max-width: 480px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 12px 12px 0 0;
+  }
+} */
+
+@media only screen and (max-width: 630px) {
+  .list a {
+    padding: 0.4rem 0.6rem;
+  }
+}
+@media only screen and (max-width: 430px) {
+  nav a svg {
+    width: 20px;
+    height: 20px;
+  }
+}

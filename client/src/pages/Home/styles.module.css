@@ -1,0 +1,75 @@
+.home_pg {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+}
+.img_container {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: url('../../../public/save_the_date5.jpg') center/cover no-repeat;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.6);
+}
+.hme_pic {
+  max-width: 60%;
+  margin-top: 2rem;
+  border-radius: 50%;
+}
+.branch_pic {
+  max-width: 30%;
+  margin-top: 1rem;
+}
+.invi_pic {
+  width: 60%;
+}
+.btm_hme_pg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btm_hme_pg > h2 {
+  font-family: 'Tangerine', serif;
+  font-size: 2.5rem;
+  margin: 2rem 0;
+}
+.btm_hme_pg > a {
+  color: var(--gold);
+  border: 1px solid var(--gold);
+  display: flex;
+  height: 3rem;
+  min-width: 3rem;
+  border-radius: 5px;
+  padding: 0 1.5rem;
+  align-items: center;
+  transition: border-color 0.25s;
+}
+
+.isActive {
+  color: var(--gold);
+}
+
+.btm_hme_pg > a:hover {
+  border: 2px solid var(--gold);
+}
+/* .btm_hme_pg > a:active {
+  color: #8fb58a;
+} */
+
+@media only screen and (max-width: 1000px) {
+  .hme_pic {
+    /* max-width: 60%; */
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .hme_pic {
+    min-width: 250px;
+  }
+  .branch_pic {
+    min-width: 140px;
+  }
+  .btm_hme_pg > h2 {
+    font-size: 2rem;
+  }
+}

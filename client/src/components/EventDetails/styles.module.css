@@ -1,0 +1,10 @@
+.EventDetails {
+  /* font-family: 'Noto Sans Hebrew', serif; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.EventDetails p {
+  font-family: 'Noto Sans Hebrew', serif;
+}

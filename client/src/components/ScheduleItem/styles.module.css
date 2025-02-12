@@ -1,0 +1,11 @@
+.schedBox {
+  background-color: var(--cream);
+  padding: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 9%);
+}
+
+.schedBox p > span {
+  font-weight: 500;
+}

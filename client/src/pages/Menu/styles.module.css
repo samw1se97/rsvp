@@ -1,0 +1,23 @@
+.foodSection {
+  min-width: 100%;
+}
+
+.single_dish {
+  /* border: 1px solid; */
+  /* 
+  border-radius: 10px;*/
+  padding: 1.5rem 2.5rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
+  margin: 1rem 0;
+  background-color: var(--cream);
+  /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); */
+  border-radius: 15px;
+  /* padding: 50px; */
+}
+
+.foodSection .single_dish .title {
+  font-family: 'Playfair Display', serif;
+  color: var(--deep-brown);
+  text-align: center;
+  font-size: 2rem;
+}

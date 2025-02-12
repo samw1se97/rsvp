@@ -1,0 +1,26 @@
+.dashboard {
+  width: 100%;
+  max-width: 650px;
+  overflow-x: auto;
+  margin: 2rem auto;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px;
+  border-collapse: collapse;
+}
+.dashboard th,
+.dashboard td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.dashboard thead {
+  background-color: #f4f4f4;
+}
+
+.dashboard tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.dashboard tbody tr:hover {
+  background-color: #f1f1f1;
+}
